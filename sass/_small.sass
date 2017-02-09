@@ -1,0 +1,121 @@
+@media (max-width: 767px)
+	[class*="col-"]
+		width: 100%
+		padding: 12px
+		float: left
+
+	.gallery [class*="col-"]
+		padding: 0
+
+	@for $i from 1 through 12
+		.col-#{$i}
+			width: 8.333333333333334% * $i
+
+	.col-s-a
+		width: 20%
+
+	.col-s-b
+		width: 40%
+
+	header
+		nav
+			img
+				margin: auto
+				display: block
+
+			ul
+				float: none
+
+				li
+					display: block
+					text-align: center
+
+	.slogan
+		h1
+			font-size: 22px
+			width: 60%
+			margin-top: 50px
+
+	.hero
+		height: 300px
+
+	.circle
+		display: none
+
+	section.container
+		margin: 15px auto
+
+	.coffee p,
+	.child p,
+	.map p
+		margin-bottom: 0
+
+	.gallery
+		margin-top: 20px
+
+	.wrapper
+		margin: 0 auto 0
+
+	.numbers
+		margin: 0
+
+		h2
+			font-size: 24px
+			margin: 0
+
+		p
+			font-size: 14px
+			margin: 0
+
+	.ipad
+		margin-top: 20px
+
+		img
+			width: auto
+			max-height: 100%
+
+	.picture
+		.col-8,
+		.col-4
+			text-align: center
+
+		h2
+			text-align: center
+			padding-left: 0
+			margin: 10px 0
+
+		p
+			text-align: center
+			padding-left: 0
+
+	footer
+		font-size: 14px
+		text-align: center
+
+		p
+			margin: 0
+
+		h3
+			&::after
+				width: 60px
+
+			&::before
+				content: ""
+				display: block
+				height: 2px
+				width: 60px
+				background: $white
+				position: absolute
+				top: 50%
+				right: calc(100% + 10px)
+
+	.media
+		p,
+		.icons
+			text-align: center
+
+	.right
+		text-align: right
+
+	.left
+		text-align: left
