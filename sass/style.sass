@@ -18,32 +18,32 @@ body
 *
 	box-sizing: border-box
 
-.container 
+.container
 	width: 100%
 	max-width: 1200px
-	margin: auto	
+	margin: auto
 
 header
-	background-color: $dark-grey	
+	background-color: $dark-grey
 	min-height: 50px
-	
+
 	nav
 		font-size: 0
-		
+
 		img
 			padding: 10px 0
-			
-		ul 
+
+		ul
 			margin: 0
 			padding: 0
 			list-style-type: none
 			float: right
 
-			li 
+			li
 				display: inline-block
 				font-size: 16px
 
-				a 
+				a
 					line-height: 50px
 					padding: 0 20px
 					display: block
@@ -51,13 +51,13 @@ header
 					text-decoration: none
 					text-transform: uppercase
 					font-weight: bold
-					&:hover 
+					&:hover
 						background-color: $light-grey
 						transition: .6s
 						color: $brown
 
-.slogan 
-	h1 
+.slogan
+	h1
 		background-color: rgba(0, 0, 0, 0.5)
 		float: right
 		max-width: 800px
@@ -67,16 +67,16 @@ header
 		text-transform: uppercase
 		width: 40%
 		font-size: 36px
-		text-shadow: 2px 2px 5px $black	
+		text-shadow: 2px 2px 5px $black
 
-.hero 
-	background-image: url(https://static.pexels.com/photos/296888/pexels-photo-296888.jpeg)
+.hero
+	background-image: url(https://fjusta.github.io/images/pexels-photo-296888.jpeg)
 	background-position: center
 	background-size: cover
 	height: 400px
 	position: relative
 
-.circle 
+.circle
 	font-size: 25px
 	color: $light-grey
 	cursor: pointer
@@ -86,10 +86,10 @@ header
 	left: 50%
 	transform: translate(-50%, 0)
 
-	i 
+	i
 		padding-right: 15px
 
-		&:last-child 
+		&:last-child
 			padding: 0
 
 .c1,
@@ -100,97 +100,97 @@ header
 
 .row
 	&:before,
-	&:after 
+	&:after
 		content: ""
 		display: table
-		clear: both	
+		clear: both
 
 [class*="col-"]
 	float: left
 	min-height: 1px
-	padding: 0 
+	padding: 0
 
-.col-1 
+.col-1
 	width: 8.33%
 
-.col-2 
+.col-2
 	width: 16.66%
 
-.col-3 
+.col-3
 	width: 25%
 
-.col-4 
+.col-4
 	width: 33.33%
 
-.col-5 
+.col-5
 	width: 41.66%
 
-.col-6 
+.col-6
 	width: 50%
 
-.col-7 
+.col-7
 	width: 58.33%
 
-.col-8 
+.col-8
 	width: 66.66%
 
-.col-9 
+.col-9
 	width: 75%
 
-.col-10 
+.col-10
 	width: 83.33%
 
-.col-11 
+.col-11
 	width: 91.66%
 
-.col-12 
+.col-12
 	width: 100%
 
-.col-a 
+.col-a
 	width: 20%
 
-.col-b 
+.col-b
 	width: 40%
 
-.col-offset-1 
+.col-offset-1
 	margin-left: 8.33%
 
-.col-offset-2 
+.col-offset-2
 	margin-left: 16.66%
 
-.col-offset-3 
+.col-offset-3
 	margin-left: 25%
 
-.col-offset-4 
+.col-offset-4
 	margin-left: 33.33%
 
-.col-offset-5 
+.col-offset-5
 	margin-left: 41.66%
 
-.col-offset-6 
+.col-offset-6
 	margin-left: 50%
 
-.col-offset-7 
+.col-offset-7
 	margin-left: 58.33%
 
-.col-offset-8 
+.col-offset-8
 	margin-left: 66.66%
 
-.col-offset-9 
+.col-offset-9
 	margin-left: 75%
 
-.col-offset-10 
+.col-offset-10
 	margin-left: 83.33%
 
-.col-offset-11 
+.col-offset-11
 	margin-left: 91.66%
 
-section.container  
+section.container
 	margin: 50px auto
 
 i.fa-coffee,
 i.fa-child,
-i.fa-map-marker 
+i.fa-map-marker
 	width: 100px
 	height: 100px
 	background-color: $dark-grey
@@ -202,7 +202,7 @@ i.fa-map-marker
 
 .ikony
 	text-align: center
-	
+
 	h2
 		font-size: 18px
 		text-transform: uppercase
@@ -214,38 +214,38 @@ i.fa-map-marker
 
 .coffee,
 .child,
-.map 
+.map
 	@extend .ikony
 
-h2 
-	color: $dark-grey	
+h2
+	color: $dark-grey
 
-.person 
-	text-align: center	
+.person
+	text-align: center
 	color: $dark-grey
 
 .over
-	&:hover 
+	&:hover
 		.fa-coffee,
 		.fa-child,
-		.fa-map-marker 
+		.fa-map-marker
 			background-color: $brown
 			color: $light-grey
 
-		h2 
+		h2
 			color: $brown
 
-.kawa 
-	p 
+.kawa
+	p
 		color: $grey
 		text-align: center
-	
-	h2 
+
+	h2
 		text-transform: uppercase
 		text-align: center
 
 .fa-search,
-.fa-link 
+.fa-link
 	background-color: $light-grey
 	width: 20px
 	height: 20px
@@ -262,37 +262,37 @@ h2
 .gal
 	position: absolute
 	display: inline-block
-	text-align: center	
+	text-align: center
 
-.image 
+.image
 	position: relative
 	display: inline-block
 	height: 200px
-	
-	img 
+
+	img
 		object-fit: cover
 		@extend .imggal
 
-.layer 
+.layer
 	display: none
 
 .image
-	&:hover 
-		.layer 
+	&:hover
+		.layer
 			@extend .imggal
 			background: rgba(0,0,0,.5)
 			@extend .gal
 
-		i 
+		i
 			margin-top: 90px
 
-.gallery 
+.gallery
 	margin-top: 80px
 
 .wrapp
 	width: 250px
 	height: 250px
-.wrapper 
+.wrapper
 	@extend .wrapp
 	margin: 50px auto 0
 	position: relative
@@ -303,54 +303,54 @@ h2
 			@extend .wrapp
 			background: rgba(0,0,0,.5)
 			@extend .gal
-		h3 
+		h3
 			margin-top: 110px
 			color: $white
-	img 
+	img
 		@extend .wrapp
 		object-fit: cover
-		
+
 .pic
 	color: $white
-	padding-left: 30px	
+	padding-left: 30px
 	text-align: left
-	
-.picture 
-	background-image: url(https://static.pexels.com/photos/24618/pexels-photo.jpg)
+
+.picture
+	background-image: url(https://fjusta.github.io/images/coffee.jpg)
 	background-position: center
 	background-size: cover
 	min-height: 300px
 	color: $white
 	text-shadow: 2px 2px 3px $black
 
-	h2 
+	h2
 		@extend .pic
 		margin-top: 50px
-	p	
+	p
 		@extend .pic
 		margin: 0
-		
+
 	.col-8
 		text-align: left
-		
-	.col-4 
+
+	.col-4
 		text-align: left
 
-		p 
-			font-style: italic	
+		p
+			font-style: italic
 
-.ipad 
+.ipad
 	overflow: hidden
 	height: 250px
 	margin-top: 50px
 
-	img 
+	img
 		width: 100%
 
-.numbers 
-	margin: 50px 0 70px 0	
+.numbers
+	margin: 50px 0 70px 0
 
-	h2 
+	h2
 		font-size: 42px
 		font-weight: 800
 		color: $dark-grey
@@ -358,14 +358,14 @@ h2
 		text-align: center
 		font-family: $another-fonts
 
-	p 
-		text-transform: uppercase	
+	p
+		text-transform: uppercase
 		color: $brown
 		margin-top: 0
 		text-align: center
 		font-weight: bold
 
-footer 
+footer
 	background-color: $dark-grey
 	min-height: 300px
 	color: $white
@@ -385,20 +385,20 @@ footer
 			left: calc(100% + 10px)
 	p
 		color: $light-grey
-		
-	.onas 
+
+	.onas
 		padding: 0 20px
-		
-.kontakt 
+
+.kontakt
 	padding-left: 70px
 
-.media 
-	p 
+.media
+	p
 		color: $light-grey
 		margin: 0
 		text-align: left
-		
-	i 
+
+	i
 		width: 30px
 		height: 30px
 		background: $brown
@@ -408,149 +408,149 @@ footer
 		margin: 10px 5px 0 0
 		text-align: center
 
-	.icons 
+	.icons
 		text-align: left
 
-.copy 
+.copy
 	background-color: $black
 	text-align: center
 	color: $white
 	height: 50px
 	line-height: 50px
 
-@media (max-width: 767px) 
-	[class*="col-"] 
+@media (max-width: 767px)
+	[class*="col-"]
 		width: 100%
-		padding: 12px 
+		padding: 12px
 		float: left
-	
-	.gallery [class*="col-"] 
+
+	.gallery [class*="col-"]
 		padding: 0
-	  
-	.col-s-1 
+
+	.col-s-1
 		width: 8.33%
-	
-	.col-s-2 
+
+	.col-s-2
 		width: 16.66%
-	
-	.col-s-3 
+
+	.col-s-3
 		width: 25%
-	
-	.col-s-4 
+
+	.col-s-4
 		width: 33.33%
-	
-	.col-s-5 
+
+	.col-s-5
 		width: 41.66%
-	
-	.col-s-6 
+
+	.col-s-6
 		width: 50%
-	
-	.col-s-7 
+
+	.col-s-7
 		width: 58.33%
-	
-	.col-s-8 
+
+	.col-s-8
 		width: 66.66%
-	
-	.col-s-9 
+
+	.col-s-9
 		width: 75%
-	
-	.col-s-10 
+
+	.col-s-10
 		width: 83.33%
-	
-	.col-s-11 
+
+	.col-s-11
 		width: 91.66%
-	
-	.col-s-12 
+
+	.col-s-12
 		width: 100%
-	
-	.col-s-a 
+
+	.col-s-a
 		width: 20%
-	
-	.col-s-b 
+
+	.col-s-b
 		width: 40%
-	
+
 	header
 		nav
 			img
 				margin: auto
 				display: block
-				
-			ul 
+
+			ul
 				float: none
-				
-				li 
+
+				li
 					display: block
 					text-align: center
-			
-	.slogan 
-		h1 
+
+	.slogan
+		h1
 			font-size: 22px
 			width: 60%
 			margin-top: 50px
-	
-	.hero 
+
+	.hero
 		height: 300px
-	
-	.circle 
+
+	.circle
 		display: none
-	
-	section.container  
+
+	section.container
 		margin: 15px auto
-	
+
 	.coffee p,
 	.child p,
-	.map p 
+	.map p
 		margin-bottom: 0
-	
-	.gallery 
+
+	.gallery
 		margin-top: 20px
-	
-	.wrapper 
+
+	.wrapper
 		margin: 0 auto 0
-	
+
 	.numbers
-		margin: 0	
-	
-		h2 
+		margin: 0
+
+		h2
 			font-size: 24px
 			margin: 0
-	
-		p 
+
+		p
 			font-size: 14px
 			margin: 0
-	
-	.ipad 
+
+	.ipad
 		margin-top: 20px
-	
-		img 
+
+		img
 			width: auto
 			max-height: 100%
-	
-	.picture 
+
+	.picture
 		.col-8,
-		.col-4 
+		.col-4
 			text-align: center
-			
+
 		h2
 			text-align: center
 			padding-left: 0
 			margin: 10px 0
-			
-		p 
+
+		p
 			text-align: center
 			padding-left: 0
-				
-	footer 
+
+	footer
 		font-size: 14px
 		text-align: center
-		
-		p 
+
+		p
 			margin: 0
-	
+
 		h3
 			&::after
 				width: 60px
-				
+
 			&::before
 				content: ""
 				display: block
@@ -561,48 +561,48 @@ footer
 				top: 50%
 				right: calc(100% + 10px)
 
-	.media 
+	.media
 		p,
-		.icons 
+		.icons
 			text-align: center
-	
-	.right 
+
+	.right
 		text-align: right
-	
-	.left 
+
+	.left
 		text-align: left
-	
-	
-@media (min-width: 768px) and (max-width: 1091px) 
-	.slogan 
-		h1 
+
+
+@media (min-width: 768px) and (max-width: 1091px)
+	.slogan
+		h1
 			margin-top: 50px
-	
+
 	.wrap
 		width: 170px
 		height: 170px
-		
-	.wrapper 
+
+	.wrapper
 		@extend .wrap
 		margin: 30px auto 0
-		&:hover 
-			.layer 
+		&:hover
+			.layer
 				@extend .wrap
 			h3
 				margin-top: 70px
-				
-		img 
+
+		img
 			@extend .wrap
-	
+
 	.ipad
 		img
 			padding-left: 10px
-			
+
 	.picture
 		.col-4
 			p
 				padding-right: 10px
 
-	.kontakt 
+	.kontakt
 		padding-left: 20px
-	
+
